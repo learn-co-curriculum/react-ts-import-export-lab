@@ -19,7 +19,7 @@ Your goal is to fix the errors, and get our app to match this example:
 
 ![demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-import-export-lab/demo.png)
 
-When you're done, run `learn test` or `npm test` to check if all tests pass.
+When you're done, run `npm test` to check if all tests pass.
 
 ## Deliverables
 
@@ -31,20 +31,20 @@ and `<NavBar>` components, and import them all in the `<App>` component.
 
 ### Data
 
-In the `src/data/user.js` file, there are three variables that have information
+In the `src/data/user.ts` file, there are three variables that have information
 about the owner of the portfolio site. Export all three variables using the
 **named export** syntax.
 
 After you've exported them, import them in the following files:
 
-- Import the `username` and `city` variables in the `src/components/Home.js`
+- Import the `username` and `city` variables in the `src/components/Home.tsx`
   file
-- Import the `image` variable in the `src/components/About.js` file
+- Import the `image` variable in the `src/components/About.tsx` file
 
 When importing, make sure to use the _relative path_ from the file you're
 currently in, to the file you're trying to import from. For example, if you are
-in the `src/components/About.js` file and want to import from the
-`src/data/user.js` file, the relative path is `../data/user` (go up one
+in the `src/components/About.tsx` file and want to import from the
+`src/data/user.ts` file, the relative path is `../data/user` (go up one
 directory, into the `data` folder, and into the `user` file).
 
 ## Resources
